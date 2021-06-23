@@ -17,13 +17,16 @@
 }
 
 .mov_big_box {margin-bottom: 40px;}
+#mr_0 {margin-bottom: 60px;}
 
 #titleMusic {
     width: 100%;
     position: relative;
     z-index: 2;
-    top: -25px;
+    top: 10px;
 }
+
+#title_title {position: relative; top: 20px;}
 
 #mr_title {top: 30px; margin-bottom: 20px;}
 #mr_0, #mr_1, #mr_2, #mr_3, #mr_4, #mr_5, #mr_6, #mr_7, #mr_8 {position: relative; top: 30px;}
