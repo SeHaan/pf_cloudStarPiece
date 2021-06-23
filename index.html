@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <!--문자 인코딩 방식 : 유니코드-->
+        <meta charset="UTF-8">
+        <!--반응형 웹 디자인을 위한 초기 화면비 설정-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Portfolio: 구름별조각</title>
+
+        <link href="static/css/common.css" rel="stylesheet">
+        <link href="static/css/player.css" rel="stylesheet">
+        <link href="static/css/index.css" rel="stylesheet">
+
+        <!--Site Description과 Thumbnail-->
+        <meta property="og:title" content="Portfolio: Cloud-Star-Piece">
+        <meta property="og:description" content="음악을 만들고, 이야기를 노래합니다.">
+        <meta property="og:site_name" content="구름별조각의 포트폴리오">
+    </head>
+
+    <body>
+        <script src="static/js/slide.js"></script>
+        
+        <h1>Portfolio: 구름별조각</h1>
+        
+        <div class="flip" onclick="current(1)" style="background-color: teal;">대문</div>
+        <div class="flip" onclick="current(2)">편안한</div>
+        <div class="flip" onclick="current(3)">긴장되는</div>
+        <div class="flip" onclick="current(4)">신나는</div>
+        <div class="flip" onclick="current(5)">신비로운</div>
+        <div class="flip" onclick="current(6)">웅장한</div>
+
+        <div class="fade" id="intro">
+            <div class="mov_big" id="introMov">
+                <video controls preload="metadata" id="mov_intro" poster="static/media/picture/cloudstarpiece.jpg">
+                    <source src="static/media/video/logo.mp4" type="video/mp4">
+                    이 브라우저에서는 동영상이 재생되지 않습니다.
+                </video>
+            </div>
+            <div id="introText">
+                <span style="font-weight: bold; font-size: 20px;">구름별조각</span>
+                <br>희망을 찾아 우주를 헤매는 별들의 노래
+                <br>Songs of stars wandering in the space<br>to look for hope<br>
+                <br>Email : cloudstarfragment@gmail.com
+                <br>Insta : <a href="https://www.instagram.com/cloud_star_piece_/" target="_blank">@cloud_star_piece</a>
+                <br>Grafolio : <a href="https://grafolio.naver.com/cldstarpiece" target="_blank">@구름별조각</a>
+
+                <br><br><br>
+                <span style="font-weight: bold; font-size: 20px;">Syeon</span>
+                <br>구름별조각의 비주얼 크리에이터<br>
+                <br>Email : syeon.design@gmail.com
+                <br>Insta : <a href="https://www.instagram.com/syeon.design/" target="_blank">@syeon.design</a>
+                <br>Grafolio : <a href="https://grafolio.naver.com/syeon" target="_blank">@Syeon</a>
+
+                <br><br><br>
+                <span style="font-weight: bold; font-size: 20px;">Myn</span>
+                <br>구름별조각의 사운드 크리에이터<br>
+                <br>Insta : <a href="https://www.instagram.com/myn_music_/" target="_blank">@myn_music_</a>
+                <br>Grafolio : <a href="https://grafolio.naver.com/myn_music" target="_blank">@Myn</a>
+                <br>GitHub :  <a href="https://github.com/SeHaan">@SeHaan</a>
+            </div>
+        </div>
+        <div class="fade" id="warm">
+            <div class="mov_big_box" id="warm_1">
+                <div class="mov_big" id="mindRoom">
+                    <a href="templates/mindRoom.html">
+                        <img src="static/media/picture/mindRoom_Cover.jpg">
+                    </a>
+                </div>
+                <div class="text_title" id="title_mindRoom">
+                    프로젝트: 마음의 방<br>(사진을 클릭해주세요!)
+                </div>
+                <div class="mov_big" id="snumental">
+                    <a href="templates/snumental.html">
+                        <img src="static/media/picture/snumental.png">
+                    </a>
+                </div>
+                <div class="text_title" id="title_snumental">
+                    프로젝트: 학심단<br>(사진을 클릭해주세요!)
+                </div>
+            </div>
+        </div>
+
+        <div class="fade" id="anxious">
+            <div class="movBox" id="bgm_1">
+                <div class="mov">
+                    <img src="static/media/picture/bgm_design-studio-v-project-intro.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/bgm_1_design studio V project intro.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_bgm_1">
+                    <span style="font-weight: bold;">DESIGN STUDIO V Project Intro</span>
+                    <br><br>2020. 11. 07.<br>Myn/BGM
+                    <br><br>for 2020 56th annual design fair of Korea University Department of Architecture.
+                </div>
+            </div>
+            <div class="movBox" id="part_2">
+                <div class="mov">
+                    <img src="static/media/picture/part_alone_under_the_moon.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/part_2_Alone Under the Moon.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_part_2">
+                    <span style="font-weight: bold;">Alone under the Moon</span>
+                    <br><br>2020. 11. 23.<br>Myn/Part
+                    <br><br>Piano
+                </div>
+            </div>
+            <div class="movBox" id="part_4">
+                <div class="mov">
+                    <img src="static/media/picture/part_rush_hour.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/part_4_Rush Hour.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_part_4">
+                    <span style="font-weight: bold;">Rush Hour</span>
+                    <br><br>2021. 01. 23.<br>Myn/Part
+                    <br><br>Piano, Drum, Glockenspiel, Harp
+                </div>
+            </div>
+        </div>
+
+        <div class="fade" id="excited">
+            <div class="movBox" id="music_1">
+                <div class="mov">
+                    <img src="static/media/picture/music_emart.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/music_1_아 어머니, 제가 다 샀어요 주제에 의한 변주곡.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_music_1">
+                    <span style="font-weight: bold;">Ah, J'ai acheté les tous, maman</span>
+                    <br><br>2020. 11. 20.<br>Myn/BGM
+                    <br><br>Originally E-Mart Logo Song, from Musical Number [South Pacific] "Happy Talk",
+                    <br>Arranged by Myn
+                </div>
+            </div>
+            <div class="movBox" id="part_3">
+                <div class="mov">
+                    <img src="static/media/picture/part_good-morning-alarm.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/part_3_Good Morning Alarm.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_part_3">
+                    <span style="font-weight: bold;">Good Morning Alarm</span>
+                    <br><br>2020. 11. 26.<br>Myn/Part
+                    <br><br>Piano, Drum, MusicBox
+                </div>
+            </div>
+        </div>
+
+        <div class="fade" id="magical">
+            <div class="movBox" id="bgm_2">
+                <div class="mov">
+                    <img src="static/media/picture/bgm_sensory-house.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/bgm_2_Space_Sensory House.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_bgm_2">
+                    <span style="font-weight: bold;">Sensory House</span>
+                    <br><br>2020. 11. 09.<br>Myn/BGM
+                    <br><br>2020 공간국제학생건축상 입선: Sensory House의 배경음악
+                </div>
+            </div>
+            <div class="movBox" id="part_5">
+                <div class="mov">
+                    <img src="static/media/picture/part_unknown_forest.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/part_5_Unknown Forest.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_part_5">
+                    <span style="font-weight: bold;">Unknown Forest</span>
+                    <br><br>2021. 02. 04.<br>Myn/Part
+                    <br><br>Piano, Tambourine, Glockenspiel, Harp
+                </div>
+            </div>
+            <div class="movBox" id="part_6">
+                <div class="mov">
+                    <img src="static/media/picture/part_couverte_de_neige.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/part_6_Couverte de Neige.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_part_6">
+                    <span style="font-weight: bold;">Couverte de Neige</span>
+                    <br><br>2021. 02. 08.<br>Myn/Part
+                    <br><br>Piano, Drum, Glockenspiel
+                </div>
+            </div>
+        </div>
+
+        <div class="fade" id="enormous">
+            <div class="movBox" id="part_1">
+                <div class="mov">
+                    <img src="static/media/picture/part_magnify.png">
+                    <audio controls preload="metadata">
+                        <source src="static/media/music/part_1_Magnify.mp3">
+                    </audio>
+                </div>
+                <div class="text" id="text_part_1">
+                    <span style="font-weight: bold;">Magnify</span>
+                    <br><br>2020. 11. 17.<br>Myn/Part
+                    <br><br>Piano
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

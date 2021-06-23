@@ -1,0 +1,30 @@
+#snumental{
+    display: block;
+    width: calc(100% - 100px);
+    height: auto;
+
+    background-color: teal;
+
+    position: relative;
+    left: 80px;
+    top: -51px;
+    margin-right: 20px;
+
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+#snu_title {top: 30px; margin-bottom: 40px;}
+.mov_big_box {margin-bottom: 40px;}
+#music_20_2, #music_21_1_0, #music_21_1_1, #music_21_1_2, #music_21_1_3 {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+}
+
+#snumental_1, #snumental_2, #snumental_3, #snumental_4, #snumental_5 {position: relative; top: 30px;}
+
+@media (max-width: 699px) {
+    .text_title {font-size: 12px;}
+}

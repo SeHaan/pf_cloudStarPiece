@@ -1,0 +1,33 @@
+#introMov {top: 30px; width: 500px; height: 500px;}
+
+#mindRoom {top: 30px;}
+#title_mindRoom {top: 20px;}
+#snumental {top: 30px; margin-top: 20px;}
+#title_snumental {top: 20px;}
+
+#bgm_1 {top: 30px;}
+#part_2 {top: 30px;}
+#part_4 {top: 30px;}
+
+#music_1 {top: 30px}
+#part_3 {top: 30px}
+
+#bgm_2 {top: 30px;}
+#part_5 {top: 30px;}
+#part_6 {top: 30px;}
+
+#enormous {height: 500px;}
+#part_1 {top: 30px}
+
+#introText {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+
+@media (max-width: 699px) {
+    #introMov {width: 60vw; height: 60vw;}
+    #introText {width: 60vw; font-size: 14px;}
+}

@@ -1,0 +1,33 @@
+#mindRoom {
+    width: calc(100% - 100px);
+    height: auto;
+
+    background-color: teal;
+
+    position: relative;
+    left: 80px;
+    top: -51px;
+    margin-right: 20px;
+
+    border-radius: 5px;
+
+    display: block;
+
+    padding-bottom: 50px;
+}
+
+.mov_big_box {margin-bottom: 40px;}
+
+#titleMusic {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+}
+
+#mr_title {top: 30px; margin-bottom: 20px;}
+#mr_0, #mr_1, #mr_2, #mr_3, #mr_4, #mr_5, #mr_6, #mr_7, #mr_8 {position: relative; top: 30px;}
+
+@media (max-width: 699px) {
+    .text_title {font-size: 12px;}
+}

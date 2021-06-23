@@ -1,0 +1,32 @@
+.mov_big {
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+    margin: auto auto 20px auto;
+
+    border: 5px solid beige;
+}
+
+.movBox {
+    position: relative;
+    width: 400px;
+    height: 200px;
+
+    margin: auto auto 60px auto;
+}
+
+.mov {
+    position: relative;
+    width: 190px;
+    height: 190px;
+
+    border: 5px solid beige;
+}
+
+@media (max-width: 699px) {
+    .mov_big {width: 43vw; height: 43vw;}
+    .movBox {width: 57vw; height: 32vw;}
+    .mov {width: 29vw; height: 29vw;}
+    .text {font-size: 12px;}
+}
