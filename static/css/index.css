@@ -19,12 +19,34 @@
 #enormous {height: 500px;}
 #part_1 {top: 30px}
 
+#titleCover {
+    text-align: center;
+    padding: 10px;
+    margin: 25px auto -25px auto;
+    position: relative;
+}
+
+#titleCover_img {
+    position: relative;
+    width: 279px;
+    height: 178px;
+    left: -10px;
+}
+
+#titleCover_text {
+    color: #1E3367;
+    position: relative;
+    left: 150px;
+    top: -23px;
+}
+
 #introText {
-    color: white;
+    color: #003277;
     text-align: center;
     position: relative;
     top: 30px;
     margin: auto;
+    letter-spacing: 0.36px;
 }
 
 @media (max-width: 699px) {

@@ -26,14 +26,19 @@
     <body>
         <script src="static/js/slide.js"></script>
         
-        <h1>Portfolio: 구름별조각</h1>
+        <div id="content">
+
+        <div id="titleCover">
+            <img id="titleCover_img" src="static/media/picture/cover_cloudstarpiece.png">
+            <div id="titleCover_text">Portfolio</div>
+        </div>
         
-        <div class="flip" onclick="current(1)" style="background-color: teal;">대문</div>
-        <div class="flip" onclick="current(2)">편안한</div>
-        <div class="flip" onclick="current(3)">긴장되는</div>
-        <div class="flip" onclick="current(4)">신나는</div>
-        <div class="flip" onclick="current(5)">신비로운</div>
-        <div class="flip" onclick="current(6)">웅장한</div>
+        <div class="flip" id="flip_1" onclick="current(1)">대문</div>
+        <div class="flip" id="flip_2" onclick="current(2)">편안한</div>
+        <div class="flip" id="flip_3" onclick="current(3)">긴장되는</div>
+        <div class="flip" id="flip_4" onclick="current(4)">신나는</div>
+        <div class="flip" id="flip_5" onclick="current(5)">신비로운</div>
+        <div class="flip" id="flip_6" onclick="current(6)">웅장한</div>
 
         <div class="fade" id="intro">
             <div class="mov_big" id="introMov">
@@ -63,8 +68,6 @@
                 <br>Insta : <a href="https://www.instagram.com/myn_music_/" target="_blank">@myn_music_</a>
                 <br>Grafolio : <a href="https://grafolio.naver.com/myn_music" target="_blank">@Myn</a>
                 <br>GitHub :  <a href="https://github.com/SeHaan">@SeHaan</a>
-                <br>
-                <img src="static/media/picture/cloudstarpiece.png" id="logo">
             </div>
             
         </div>
@@ -218,6 +221,7 @@
                 </div>
             </div>
         </div>
-        
+
+        </div>
     </body>
 </html>
