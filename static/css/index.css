@@ -28,16 +28,18 @@
 
 #titleCover_img {
     position: relative;
-    width: 279px;
-    height: 178px;
+    width: 150px;
     left: -10px;
 }
 
 #titleCover_text {
     color: #1E3367;
     position: relative;
-    left: 150px;
+    text-align: left;
+    width: 100px;
+    left: 100px;
     top: -23px;
+    margin: auto;
 }
 
 #introText {
@@ -52,12 +54,6 @@
 @media (max-width: 699px) {
     #introMov {width: 60vw; height: 60vw;}
     #introText {width: 60vw; font-size: 14px;}
-}
-
-#logo {
-    width: 50%;
-    height: 50%;
-    margin: 20px auto 20px auto;
-    position: relative;
-    top: 20px;
+    #titleCover_text {font-size: 14px; left: calc(15vw + 25px);}
+    #titleCover_img {width: 25vw;}
 }
